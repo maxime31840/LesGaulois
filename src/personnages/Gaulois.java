@@ -40,7 +40,7 @@ public class Gaulois {
 	public void boirePotion(int forcePotion) {
 		this.effetPotion = forcePotion;
 		parler("Merci Druide, je sens que ma force est " + forcePotion
-				+ "fois décuplée. J si la force de la potion est de " + effetPotion);
+				+ " fois décuplée. J si la force de la potion qui est de " + effetPotion);
 	}
 
 }
