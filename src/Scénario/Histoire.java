@@ -12,7 +12,6 @@ public class Histoire {
 		Romain minus = new Romain("Minus", 6);
 		Druide panoramix = new Druide("Panoramix", 1, 10);
 
-		panoramix.parler("Bonjour, je suis le druide Panoramix et ma potion peut aller d une force 5 à 10");
 		panoramix.parler("Je vais aller préparer une petite potion...");
 		panoramix.preparerPotion();
 		panoramix.parler("Non, Obélix !... Tu n auras pas de potion magique !");
