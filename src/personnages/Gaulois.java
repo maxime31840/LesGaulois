@@ -1,21 +1,21 @@
 package personnages;
 
 public class Gaulois {
-	private string nom;
+	private String nom;
 	private int force;
-	private int EffetPotion=1;
+	private int effetPotion=1;
 	
-	public Gaulois(string nom, int force) {
+	public Gaulois(String nom, int force) {
 		this.nom = nom;
 		this.force = force;
 	}
 
-	public string getNom() {
+	public String getNom() {
 		return nom;
 	}
 	
 	public void parler(String texte) {
-		System.out.println(prendreParole + """ + texte + """);
+		System.out.println(prendreParole() + "'' + texte + ''");
 	}
 	
 	private String prendreParole() {
@@ -29,11 +29,11 @@ public class Gaulois {
 
 	@Override
 	public String toString() {
-		return "Gaulois [nom=" +nom + ", force=" + force + ", effetPotion="	+ effetPotion + "]";
+		return "Gaulois [nom=" + nom + ", force=" + force + ", effetPotion="	+ effetPotion + "]";
 	}
 	
 	public static void main(String[] args) {
-		
+		System.out.println("kikoo");
 	}
 
   
